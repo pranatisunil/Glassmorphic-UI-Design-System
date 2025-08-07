@@ -1,0 +1,17 @@
+@import '../../styles/variables';
+
+.card {
+  @extend .glass-effect;
+  padding: 24px;
+  transition: var(--transition);
+  cursor: pointer;
+
+  &__title {
+    margin-bottom: 16px;
+    color: var(--primary-color);
+  }
+
+  &__content {
+    color: var(--text-color);
+  }
+}
